@@ -421,8 +421,19 @@ svg path {
     margin-top: 10px; }
 
 .modal-box-content {
-  position: relative; }
+  position: relative;
+  text-align: center; }
 
+.modal-box-content a{
+  position: relative;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid;
+}
+.modal-box-content a:hover{
+  background-color: #8238A7;
+  color: #fff;
+}
 .contact_box {
   margin-bottom: 30px; }
   .contact_box h3 {
